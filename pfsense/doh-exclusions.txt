@@ -1,0 +1,3 @@
+# Plages IPv4 à ne jamais bloquer dans pfsense/doh-ipv4.txt, en plus des plages Cloudflare
+# (récupérées automatiquement). Une plage CIDR par ligne, commentaires en #.
+# À compléter si un site légitime est cassé par le blocage DoH.
