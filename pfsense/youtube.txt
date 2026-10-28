@@ -1,0 +1,18 @@
+# Blocage complet de YouTube (site, apps, embeds, flux vidéo)
+# Les sous-domaines (ex. rr1---sn-xxxx.googlevideo.com) ne sont bloqués
+# que si le blocage wildcard est activé dans pfBlockerNG (DNSBL en mode Python).
+# Effet de bord : googlevideo.com sert aussi certains aperçus vidéo de Google Drive / Photos.
+youtube.com
+youtu.be
+yt.be
+youtube-nocookie.com
+youtubekids.com
+youtubeeducation.com
+googlevideo.com
+ytimg.com
+youtubei.googleapis.com
+youtube.googleapis.com
+yt3.ggpht.com
+yt4.ggpht.com
+youtube-ui.l.google.com
+ytimg.l.google.com

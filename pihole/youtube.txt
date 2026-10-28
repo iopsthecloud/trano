@@ -1,0 +1,17 @@
+# Blocage complet de YouTube (site, apps, embeds, flux vidéo)
+# Format ABP : ||domaine^ bloque le domaine et ses sous-domaines.
+# Effet de bord : googlevideo.com sert aussi certains aperçus vidéo de Google Drive / Photos.
+||youtube.com^
+||youtu.be^
+||yt.be^
+||youtube-nocookie.com^
+||youtubekids.com^
+||youtubeeducation.com^
+||googlevideo.com^
+||ytimg.com^
+||youtubei.googleapis.com^
+||youtube.googleapis.com^
+||yt3.ggpht.com^
+||yt4.ggpht.com^
+||youtube-ui.l.google.com^
+||ytimg.l.google.com^

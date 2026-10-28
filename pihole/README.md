@@ -4,4 +4,4 @@ Listes custom consommées par les Pi-hole (dont celui de Home Assistant), abonn�
 
     https://raw.githubusercontent.com/iopsthecloud/trano/main/pihole/<fichier>.txt
 
-Format : un domaine par ligne (`exemple.com`), commentaires en `#`. Le format hosts (`0.0.0.0 exemple.com`) est aussi accepté.
+Format : un domaine par ligne (`exemple.com`, correspondance exacte) ou ABP (`||exemple.com^`, domaine + sous-domaines), commentaires en `#`. Les regex ne sont pas acceptées dans une liste abonnée : elles se gèrent dans la denylist locale de Pi-hole.
